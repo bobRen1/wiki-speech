@@ -31,5 +31,5 @@ module.exports = async function wikipedia(ctx) {
         return;
     }
 
-    ctx.sendVoice({ source: file });
+    ctx.sendVoice({ source: voiceFile });
 }
